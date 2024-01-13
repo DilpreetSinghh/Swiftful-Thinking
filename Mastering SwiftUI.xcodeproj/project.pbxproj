@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D1AC2BE2B527655001B7C2E /* LecScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AC2BD2B527655001B7C2E /* LecScrollView.swift */; };
+		7D1AC2C32B52926E001B7C2E /* LecForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AC2C22B52926E001B7C2E /* LecForEach.swift */; };
 		7DF912FF2B516788007F2740 /* Mastering_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */; };
 		7DF913012B516788007F2740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF913002B516788007F2740 /* ContentView.swift */; };
 		7DF913032B516788007F2740 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF913022B516788007F2740 /* Item.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D1AC2BD2B527655001B7C2E /* LecScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecScrollView.swift; sourceTree = "<group>"; };
+		7D1AC2C22B52926E001B7C2E /* LecForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecForEach.swift; sourceTree = "<group>"; };
 		7DF912FB2B516788007F2740 /* Mastering SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mastering SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mastering_SwiftUIApp.swift; sourceTree = "<group>"; };
 		7DF913002B516788007F2740 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,10 +38,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D1AC2C12B5291A2001B7C2E /* Lectures */ = {
+			isa = PBXGroup;
+			children = (
+				7D1AC2BD2B527655001B7C2E /* LecScrollView.swift */,
+				7D1AC2C22B52926E001B7C2E /* LecForEach.swift */,
+			);
+			path = Lectures;
+			sourceTree = "<group>";
+		};
 		7DF912F22B516788007F2740 = {
 			isa = PBXGroup;
 			children = (
 				7DF912FD2B516788007F2740 /* Mastering SwiftUI */,
+				7D1AC2C12B5291A2001B7C2E /* Lectures */,
 				7DF912FC2B516788007F2740 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1AC2C32B52926E001B7C2E /* LecForEach.swift in Sources */,
+				7D1AC2BE2B527655001B7C2E /* LecScrollView.swift in Sources */,
 				7DF913012B516788007F2740 /* ContentView.swift in Sources */,
 				7DF913032B516788007F2740 /* Item.swift in Sources */,
 				7DF912FF2B516788007F2740 /* Mastering_SwiftUIApp.swift in Sources */,
