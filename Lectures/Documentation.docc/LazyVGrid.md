@@ -122,9 +122,17 @@ But what about iPad and macOS?
 }
 
 
+## Making Section over Content while scrolling
+
+We need to change `pinnedViews: []`
+
+```swift
+pinnedViews: [.sectionHeaders],
+```
 
 
-### How I make This
+
+## How I make This
 
 @Video(poster: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeveloper.apple.com%2Fdocumentation%2Fxcode%2Fadding-supplemental-content-to-a-documentation-catalog&psig=AOvVaw3g2yFKQC2rq3FHvn4JzwNh&ust=1705236961048000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJiww_C02oMDFQAAAAAdAAAAABAD", source: "https://devstreaming-cdn.apple.com/videos/wwdc/2023/10244/4/6BE389F4-2F7E-4D0C-A6B6-25C8306D816E/cmaf.m3u8", alt: "This is the official video by Apple, available on website")
 
