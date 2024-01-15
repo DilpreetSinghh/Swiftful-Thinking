@@ -10,8 +10,9 @@
 		7D1AC2BE2B527655001B7C2E /* LecScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AC2BD2B527655001B7C2E /* LecScrollView.swift */; };
 		7D1AC2C32B52926E001B7C2E /* LecForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AC2C22B52926E001B7C2E /* LecForEach.swift */; };
 		7D1AC2C52B529665001B7C2E /* LecLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AC2C42B529665001B7C2E /* LecLazyVGrid.swift */; };
+		7D269FAD2B55B3BB00F3DAA7 /* Lec_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D269FAC2B55B3BB00F3DAA7 /* Lec_Button.swift */; };
+		7D269FAF2B55B3E200F3DAA7 /* Lec_State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D269FAE2B55B3E200F3DAA7 /* Lec_State.swift */; };
 		7D5A765A2B52AC670094ED57 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A76592B52AC670094ED57 /* Documentation.docc */; };
-		7DBC651B2B53E86F00CA0B26 /* Lec_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC651A2B53E86F00CA0B26 /* Lec_Button.swift */; };
 		7DF912FF2B516788007F2740 /* Mastering_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */; };
 		7DF913012B516788007F2740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF913002B516788007F2740 /* ContentView.swift */; };
 		7DF913032B516788007F2740 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF913022B516788007F2740 /* Item.swift */; };
@@ -23,8 +24,9 @@
 		7D1AC2BD2B527655001B7C2E /* LecScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecScrollView.swift; sourceTree = "<group>"; };
 		7D1AC2C22B52926E001B7C2E /* LecForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecForEach.swift; sourceTree = "<group>"; };
 		7D1AC2C42B529665001B7C2E /* LecLazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecLazyVGrid.swift; sourceTree = "<group>"; };
+		7D269FAC2B55B3BB00F3DAA7 /* Lec_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Button.swift; sourceTree = "<group>"; };
+		7D269FAE2B55B3E200F3DAA7 /* Lec_State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_State.swift; sourceTree = "<group>"; };
 		7D5A76592B52AC670094ED57 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
-		7DBC651A2B53E86F00CA0B26 /* Lec_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Button.swift; sourceTree = "<group>"; };
 		7DF912FB2B516788007F2740 /* Mastering SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mastering SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mastering_SwiftUIApp.swift; sourceTree = "<group>"; };
 		7DF913002B516788007F2740 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +52,8 @@
 				7D1AC2BD2B527655001B7C2E /* LecScrollView.swift */,
 				7D1AC2C22B52926E001B7C2E /* LecForEach.swift */,
 				7D1AC2C42B529665001B7C2E /* LecLazyVGrid.swift */,
-				7DBC651A2B53E86F00CA0B26 /* Lec_Button.swift */,
+				7D269FAC2B55B3BB00F3DAA7 /* Lec_Button.swift */,
+				7D269FAE2B55B3E200F3DAA7 /* Lec_State.swift */,
 				7D5A76592B52AC670094ED57 /* Documentation.docc */,
 			);
 			path = Lectures;
@@ -165,12 +168,13 @@
 			files = (
 				7D1AC2C32B52926E001B7C2E /* LecForEach.swift in Sources */,
 				7D1AC2C52B529665001B7C2E /* LecLazyVGrid.swift in Sources */,
-				7DBC651B2B53E86F00CA0B26 /* Lec_Button.swift in Sources */,
+				7D269FAD2B55B3BB00F3DAA7 /* Lec_Button.swift in Sources */,
 				7D5A765A2B52AC670094ED57 /* Documentation.docc in Sources */,
 				7D1AC2BE2B527655001B7C2E /* LecScrollView.swift in Sources */,
 				7DF913012B516788007F2740 /* ContentView.swift in Sources */,
 				7DF913032B516788007F2740 /* Item.swift in Sources */,
 				7DF912FF2B516788007F2740 /* Mastering_SwiftUIApp.swift in Sources */,
+				7D269FAF2B55B3E200F3DAA7 /* Lec_State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
