@@ -12,6 +12,7 @@
 		7D1AC2C52B529665001B7C2E /* LecLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AC2C42B529665001B7C2E /* LecLazyVGrid.swift */; };
 		7D269FAD2B55B3BB00F3DAA7 /* Lec_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D269FAC2B55B3BB00F3DAA7 /* Lec_Button.swift */; };
 		7D269FAF2B55B3E200F3DAA7 /* Lec_State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D269FAE2B55B3E200F3DAA7 /* Lec_State.swift */; };
+		7D269FB12B55BC2800F3DAA7 /* Lec_Func_and_Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D269FB02B55BC2800F3DAA7 /* Lec_Func_and_Views.swift */; };
 		7D5A765A2B52AC670094ED57 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A76592B52AC670094ED57 /* Documentation.docc */; };
 		7DF912FF2B516788007F2740 /* Mastering_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */; };
 		7DF913012B516788007F2740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF913002B516788007F2740 /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 		7D1AC2C42B529665001B7C2E /* LecLazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecLazyVGrid.swift; sourceTree = "<group>"; };
 		7D269FAC2B55B3BB00F3DAA7 /* Lec_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Button.swift; sourceTree = "<group>"; };
 		7D269FAE2B55B3E200F3DAA7 /* Lec_State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_State.swift; sourceTree = "<group>"; };
+		7D269FB02B55BC2800F3DAA7 /* Lec_Func_and_Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Func_and_Views.swift; sourceTree = "<group>"; };
 		7D5A76592B52AC670094ED57 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		7DF912FB2B516788007F2740 /* Mastering SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mastering SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mastering_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 				7D1AC2C42B529665001B7C2E /* LecLazyVGrid.swift */,
 				7D269FAC2B55B3BB00F3DAA7 /* Lec_Button.swift */,
 				7D269FAE2B55B3E200F3DAA7 /* Lec_State.swift */,
+				7D269FB02B55BC2800F3DAA7 /* Lec_Func_and_Views.swift */,
 				7D5A76592B52AC670094ED57 /* Documentation.docc */,
 			);
 			path = Lectures;
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D1AC2C32B52926E001B7C2E /* LecForEach.swift in Sources */,
+				7D269FB12B55BC2800F3DAA7 /* Lec_Func_and_Views.swift in Sources */,
 				7D1AC2C52B529665001B7C2E /* LecLazyVGrid.swift in Sources */,
 				7D269FAD2B55B3BB00F3DAA7 /* Lec_Button.swift in Sources */,
 				7D5A765A2B52AC670094ED57 /* Documentation.docc in Sources */,
