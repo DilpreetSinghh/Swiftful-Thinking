@@ -11,7 +11,10 @@ import SwiftUI
 struct Lec_SubView: View {
     var body: some View {
         ZStack{
-            Text("hi")
+            Color.black.ignoresSafeArea(.all)
+            
+            
+            
         }
     }
 }
@@ -19,3 +22,6 @@ struct Lec_SubView: View {
 #Preview {
     Lec_SubView()
 }
+
+
+struct one year year
