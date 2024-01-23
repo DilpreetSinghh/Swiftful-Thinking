@@ -19,6 +19,7 @@
 		7D5A765A2B52AC670094ED57 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A76592B52AC670094ED57 /* Documentation.docc */; };
 		7D849ED12B5F7CE000D116D1 /* Lec_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D849ED02B5F7CE000D116D1 /* Lec_Animation.swift */; };
 		7D849ED32B5F9AA000D116D1 /* Lec_Animation_Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D849ED22B5F9AA000D116D1 /* Lec_Animation_Timing.swift */; };
+		7D849ED52B5FA0D500D116D1 /* Lec_Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D849ED42B5FA0D500D116D1 /* Lec_Sheets.swift */; };
 		7D9073612B5E804F00B87DE5 /* Lec_Conditional_Statements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9073602B5E804F00B87DE5 /* Lec_Conditional_Statements.swift */; };
 		7D9073632B5E871300B87DE5 /* Lec_Ternary_Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9073622B5E871300B87DE5 /* Lec_Ternary_Operator.swift */; };
 		7DF912FF2B516788007F2740 /* Mastering_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */; };
@@ -41,6 +42,7 @@
 		7D5A76592B52AC670094ED57 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		7D849ED02B5F7CE000D116D1 /* Lec_Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Animation.swift; sourceTree = "<group>"; };
 		7D849ED22B5F9AA000D116D1 /* Lec_Animation_Timing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Animation_Timing.swift; sourceTree = "<group>"; };
+		7D849ED42B5FA0D500D116D1 /* Lec_Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Sheets.swift; sourceTree = "<group>"; };
 		7D9073602B5E804F00B87DE5 /* Lec_Conditional_Statements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Conditional_Statements.swift; sourceTree = "<group>"; };
 		7D9073622B5E871300B87DE5 /* Lec_Ternary_Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Ternary_Operator.swift; sourceTree = "<group>"; };
 		7DF912FB2B516788007F2740 /* Mastering SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mastering SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 				7D9073622B5E871300B87DE5 /* Lec_Ternary_Operator.swift */,
 				7D849ED02B5F7CE000D116D1 /* Lec_Animation.swift */,
 				7D849ED22B5F9AA000D116D1 /* Lec_Animation_Timing.swift */,
+				7D849ED42B5FA0D500D116D1 /* Lec_Sheets.swift */,
 				7D5A76592B52AC670094ED57 /* Documentation.docc */,
 			);
 			path = Lectures;
@@ -192,6 +195,7 @@
 			files = (
 				7D1AC2C32B52926E001B7C2E /* LecForEach.swift in Sources */,
 				7D849ED12B5F7CE000D116D1 /* Lec_Animation.swift in Sources */,
+				7D849ED52B5FA0D500D116D1 /* Lec_Sheets.swift in Sources */,
 				7D4A392C2B59AA31006281A6 /* Lec_Text.swift in Sources */,
 				7D269FB12B55BC2800F3DAA7 /* Lec_Func_and_Views.swift in Sources */,
 				7D1AC2C52B529665001B7C2E /* LecLazyVGrid.swift in Sources */,
