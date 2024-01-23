@@ -19,7 +19,7 @@ struct Lec_Ternary_Operator: View {
             }
             .padding()
             
-            Rectangles(isStartingState: $isStartingState, colorOfRectangle: $colorOfRectangle)
+            Rectangles(isStartingState: $isStartingState, Color_of_Rectangle: $colorOfRectangle)
         }
         .onAppear {
             updateColor()
@@ -45,12 +45,22 @@ struct Lec_Ternary_Operator: View {
 struct Rectangles: View {
     
     @Binding var isStartingState: Bool
-    @Binding var colorOfRectangle: Color
+    @Binding var Color_of_Rectangle: Color
     
     var body: some View {
-        RoundedRectangle(cornerRadius: 25.0)
-            .fill(colorOfRectangle)
-            .frame(width: 150, height: 200)
+        Group {
+            RoundedRectangle(cornerRadius: 25.0)
+                .fill(Color_of_Rectangle)
+                .frame(width: 150, height: 100)
+            
+                .onAppear {
+                    if isStartingState {
+                        Color_of_Rectangle = Color.red
+                    } else {
+                        Color_of_Rectangle = Color.blue
+                    }
+                }
+        }
     }
 }
 
