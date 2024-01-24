@@ -12,23 +12,25 @@ struct LecForEach: View {
     let data: [String] = ["One", "Two", "Three"]
     
     var body: some View {
-        ScrollView{
-            VStack{
-                ForEach(0..<10) {index in
+        ScrollView {
+            VStack {
+                ForEach(0..<10) { index in
                     HStack {
                         Circle()
-                            .frame(width: 25, height: 40, alignment: .center)
+                            .frame(width: 25, height: 40)
                         Text(" Circle number is \(index + 1)   ")
                     }
                 }
                 
-                ForEach(data.indices){index in
-                    Text("New Item: \(data[index]) has index of \(index)")
+                ForEach(data.indices, id: \.self) { index in
+                    Text("New Item: \(data[index]) has index of \(index + 1)")
                 }
             }
         }
     }
 }
+
+
 
 #Preview {
     LecForEach()
