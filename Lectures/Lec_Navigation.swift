@@ -12,7 +12,6 @@ struct Lec_Navigation: View {
         NavigationView {
             ScrollView {
                 NavigationLink("Hello, world", destination: MyOtherScreen())
-                
                 Text("Hello, World!")
                 Text("Hello, World!")
                 Text("Hello, World!")
