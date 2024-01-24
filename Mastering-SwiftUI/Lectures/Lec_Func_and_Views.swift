@@ -25,7 +25,7 @@ struct Lec_Func_and_Views: View {
     /// all logic used here will embeded in another view named as body
     var contentLayer: some View {
         VStack{
-            Text("Title")
+            Text("Title Heading")
                 .font(.largeTitle)
             Button(action: {
                 buttonPressed()
