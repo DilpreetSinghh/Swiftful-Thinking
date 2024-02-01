@@ -1,10 +1,7 @@
 # Alert
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+Alert give us pop up in the center of the screen.
 
-## Overview
-
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
 
 ### Simple Alert
 
