@@ -19,7 +19,7 @@ struct Lec_TextField: View {
               //      .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
                     .background(Color.gray.opacity(0.3))
-                    .foregroundStyle(Color.red)
+                    .foregroundStyle(Color.blue)
                     .font(.headline)
                     .cornerRadius(10)
                 
@@ -36,6 +36,7 @@ struct Lec_TextField: View {
                         .font(.headline)
                         .cornerRadius(10)
                 }
+                .disabled(!textIsAppropriate())
                 
                 ForEach(dataArray, id: \.self) { data in
                     Text(data)
@@ -59,7 +60,6 @@ struct Lec_TextField: View {
     func saveText(){
         dataArray.append(textFieldText)
         textFieldText = ""
-
     }
 }
 
