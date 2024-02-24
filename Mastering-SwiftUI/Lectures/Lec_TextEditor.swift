@@ -17,6 +17,11 @@ struct Lec_TextEditor: View {
             VStack{
                 TextEditor(text: $textEditorText)
                     .frame(height: 150)
+                    // .background(Color.red)
+                    // .background doesn't work. don't know the reason
+                    // .backgroundStyle(Color.gray)
+                    //  This too
+                    .colorMultiply(.offWhite)
                 Button {
                     savedText.append(textEditorText)
                     textEditorText = ""
@@ -35,7 +40,6 @@ struct Lec_TextEditor: View {
                 Spacer()
             }
             .padding()
-            .background(Color.gray)
             .navigationTitle("Text Editor")
         }
     }
