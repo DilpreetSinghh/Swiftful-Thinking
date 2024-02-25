@@ -16,6 +16,7 @@
 		7D269FB12B55BC2800F3DAA7 /* Lec_Func_and_Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D269FB02B55BC2800F3DAA7 /* Lec_Func_and_Views.swift */; };
 		7D269FB32B55C09200F3DAA7 /* Lec_SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D269FB22B55C09200F3DAA7 /* Lec_SubView.swift */; };
 		7D2B0C422B5E4F76007AA41E /* Lec Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B0C412B5E4F76007AA41E /* Lec Binding.swift */; };
+		7D35CE9E2B8A4E9600C79F4C /* Lec_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35CE9D2B8A4E9600C79F4C /* Lec_Toggle.swift */; };
 		7D4A392C2B59AA31006281A6 /* Lec_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A392B2B59AA31006281A6 /* Lec_Text.swift */; };
 		7D5A765A2B52AC670094ED57 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A76592B52AC670094ED57 /* Documentation.docc */; };
 		7D7869882B691B6D00DBCB0C /* Lec_Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7869872B691B6D00DBCB0C /* Lec_Alerts.swift */; };
@@ -47,6 +48,7 @@
 		7D269FB02B55BC2800F3DAA7 /* Lec_Func_and_Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Func_and_Views.swift; sourceTree = "<group>"; };
 		7D269FB22B55C09200F3DAA7 /* Lec_SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_SubView.swift; sourceTree = "<group>"; };
 		7D2B0C412B5E4F76007AA41E /* Lec Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lec Binding.swift"; sourceTree = "<group>"; };
+		7D35CE9D2B8A4E9600C79F4C /* Lec_Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Toggle.swift; sourceTree = "<group>"; };
 		7D4A392B2B59AA31006281A6 /* Lec_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Text.swift; sourceTree = "<group>"; };
 		7D5A76592B52AC670094ED57 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		7D7869872B691B6D00DBCB0C /* Lec_Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Alerts.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				7D1AC2C22B52926E001B7C2E /* LecForEach.swift */,
 				7D1AC2C42B529665001B7C2E /* LecLazyVGrid.swift */,
 				7D1AC2BD2B527655001B7C2E /* LecScrollView.swift */,
+				7D35CE9D2B8A4E9600C79F4C /* Lec_Toggle.swift */,
 			);
 			path = Lectures;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				7D849ED92B5FD5E500D116D1 /* Lec_Navigation.swift in Sources */,
 				7D2B0C422B5E4F76007AA41E /* Lec Binding.swift in Sources */,
 				7DB235752B854CC100779111 /* Lec_TextField.swift in Sources */,
+				7D35CE9E2B8A4E9600C79F4C /* Lec_Toggle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
