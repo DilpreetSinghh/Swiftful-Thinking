@@ -33,6 +33,7 @@
 		7DB235732B85446300779111 /* Lec_ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB235722B85446300779111 /* Lec_ContextMenu.swift */; };
 		7DB235752B854CC100779111 /* Lec_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB235742B854CC100779111 /* Lec_TextField.swift */; };
 		7DD39FBA2B9B8EDA005D9D7C /* Lec_ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD39FB92B9B8EDA005D9D7C /* Lec_ColorPicker.swift */; };
+		7DD39FBC2B9BA6AF005D9D7C /* Lec_DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD39FBB2B9BA6AF005D9D7C /* Lec_DatePicker.swift */; };
 		7DF18BFC2B87769B00A2ED3F /* Lec_TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF18BFB2B87769B00A2ED3F /* Lec_TextEditor.swift */; };
 		7DF912FF2B516788007F2740 /* Mastering_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */; };
 		7DF913012B516788007F2740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF913002B516788007F2740 /* ContentView.swift */; };
@@ -68,6 +69,7 @@
 		7DB235722B85446300779111 /* Lec_ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_ContextMenu.swift; sourceTree = "<group>"; };
 		7DB235742B854CC100779111 /* Lec_TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lec_TextField.swift; sourceTree = "<group>"; };
 		7DD39FB92B9B8EDA005D9D7C /* Lec_ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_ColorPicker.swift; sourceTree = "<group>"; };
+		7DD39FBB2B9BA6AF005D9D7C /* Lec_DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_DatePicker.swift; sourceTree = "<group>"; };
 		7DF18BFB2B87769B00A2ED3F /* Lec_TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_TextEditor.swift; sourceTree = "<group>"; };
 		7DF912FB2B516788007F2740 /* Mastering SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mastering SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mastering_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				7D35CE9D2B8A4E9600C79F4C /* Lec_Toggle.swift */,
 				7D35CE9F2B8AF43D00C79F4C /* Lec_Picker_One.swift */,
 				7D35CEA12B8AF91D00C79F4C /* Lec_Picker_Two.swift */,
+				7DD39FBB2B9BA6AF005D9D7C /* Lec_DatePicker.swift */,
 			);
 			path = Lectures;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF18BFC2B87769B00A2ED3F /* Lec_TextEditor.swift in Sources */,
+				7DD39FBC2B9BA6AF005D9D7C /* Lec_DatePicker.swift in Sources */,
 				7D1AC2C32B52926E001B7C2E /* LecForEach.swift in Sources */,
 				7D35CEA22B8AF91D00C79F4C /* Lec_Picker_Two.swift in Sources */,
 				7D849ED12B5F7CE000D116D1 /* Lec_Animation.swift in Sources */,
