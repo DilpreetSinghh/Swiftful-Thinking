@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct Lec_ColorPicker: View {
+    @State var background: Color = .green
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            background.ignoresSafeArea()
+            
+            ColorPicker(selection: $background,
+                        supportsOpacity: true,
+                        label: {Text("Select a Color")})
+            .padding()
+            .background(RoundedRectangle(cornerRadius: 10).fill(Color.black))
+            .foregroundStyle(Color.white)
+            .font(.headline)
+            .padding()
+
+        }
     }
 }
 
