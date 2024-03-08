@@ -21,7 +21,7 @@ struct Lec_TextEditor: View {
                     // .background doesn't work. don't know the reason
                     // .backgroundStyle(Color.gray)
                     //  This too
-                    .colorMultiply(.offWhite)
+                    .colorMultiply(.snow)
                 Button {
                     savedText.append(textEditorText)
                     textEditorText = ""
