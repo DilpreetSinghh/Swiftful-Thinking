@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D102F722B9E2E5B00D14152 /* Lec_Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D102F712B9E2E5B00D14152 /* Lec_Slider.swift */; };
 		7D12AB232B5FE8050049CF77 /* Lec_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12AB222B5FE8050049CF77 /* Lec_List.swift */; };
 		7D1AC2BE2B527655001B7C2E /* LecScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AC2BD2B527655001B7C2E /* LecScrollView.swift */; };
 		7D1AC2C32B52926E001B7C2E /* LecForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AC2C22B52926E001B7C2E /* LecForEach.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D102F712B9E2E5B00D14152 /* Lec_Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Slider.swift; sourceTree = "<group>"; };
 		7D12AB222B5FE8050049CF77 /* Lec_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_List.swift; sourceTree = "<group>"; };
 		7D1AC2BD2B527655001B7C2E /* LecScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecScrollView.swift; sourceTree = "<group>"; };
 		7D1AC2C22B52926E001B7C2E /* LecForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecForEach.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				7D35CEA12B8AF91D00C79F4C /* Lec_Picker_Two.swift */,
 				7DD39FBB2B9BA6AF005D9D7C /* Lec_DatePicker.swift */,
 				7DD39FBD2B9BB95F005D9D7C /* Lec_Stepper.swift */,
+				7D102F712B9E2E5B00D14152 /* Lec_Slider.swift */,
 			);
 			path = Lectures;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				7DB235732B85446300779111 /* Lec_ContextMenu.swift in Sources */,
 				7DD39FBA2B9B8EDA005D9D7C /* Lec_ColorPicker.swift in Sources */,
 				7D78698A2B6A561300DBCB0C /* Lec_ConfirmationDialog.swift in Sources */,
+				7D102F722B9E2E5B00D14152 /* Lec_Slider.swift in Sources */,
 				7D269FB12B55BC2800F3DAA7 /* Lec_Func_and_Views.swift in Sources */,
 				7D1AC2C52B529665001B7C2E /* LecLazyVGrid.swift in Sources */,
 				7D269FAD2B55B3BB00F3DAA7 /* Lec_Button.swift in Sources */,
