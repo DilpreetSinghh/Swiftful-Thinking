@@ -16,6 +16,9 @@
 		7D6617D22BA169A900D9133E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D6617D12BA169A900D9133E /* FirebaseAnalyticsSwift */; };
 		7D6617D52BA1783500D9133E /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6617D42BA1783500D9133E /* AuthenticationView.swift */; };
 		7D6617D72BA17C7400D9133E /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6617D62BA17C7400D9133E /* SignInEmailView.swift */; };
+		7D72D4792BA18C1D00EDBC4D /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72D4782BA18C1D00EDBC4D /* AuthenticationManager.swift */; };
+		7D72D47B2BA1E71F00EDBC4D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7D72D47A2BA1E71F00EDBC4D /* FirebaseAuth */; };
+		7D72D47D2BA1E71F00EDBC4D /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7D72D47C2BA1E71F00EDBC4D /* FirebaseAuthCombine-Community */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,7 @@
 		7D6617CC2BA168CE00D9133E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7D6617D42BA1783500D9133E /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		7D6617D62BA17C7400D9133E /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		7D72D4782BA18C1D00EDBC4D /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D6617D22BA169A900D9133E /* FirebaseAnalyticsSwift in Frameworks */,
+				7D72D47B2BA1E71F00EDBC4D /* FirebaseAuth in Frameworks */,
 				7D6617D02BA169A900D9133E /* FirebaseAnalytics in Frameworks */,
+				7D72D47D2BA1E71F00EDBC4D /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +90,7 @@
 			children = (
 				7D6617D42BA1783500D9133E /* AuthenticationView.swift */,
 				7D6617D62BA17C7400D9133E /* SignInEmailView.swift */,
+				7D72D4782BA18C1D00EDBC4D /* AuthenticationManager.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -107,6 +114,8 @@
 			packageProductDependencies = (
 				7D6617CF2BA169A900D9133E /* FirebaseAnalytics */,
 				7D6617D12BA169A900D9133E /* FirebaseAnalyticsSwift */,
+				7D72D47A2BA1E71F00EDBC4D /* FirebaseAuth */,
+				7D72D47C2BA1E71F00EDBC4D /* FirebaseAuthCombine-Community */,
 			);
 			productName = SwiftfulFirebase;
 			productReference = 7D6617BB2BA166DE00D9133E /* SwiftfulFirebase.app */;
@@ -169,6 +178,7 @@
 				7D6617C12BA166DE00D9133E /* ContentView.swift in Sources */,
 				7D6617BF2BA166DE00D9133E /* SwiftfulFirebaseApp.swift in Sources */,
 				7D6617D52BA1783500D9133E /* AuthenticationView.swift in Sources */,
+				7D72D4792BA18C1D00EDBC4D /* AuthenticationManager.swift in Sources */,
 				7D6617D72BA17C7400D9133E /* SignInEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +409,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7D6617CE2BA169A900D9133E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalyticsSwift;
+		};
+		7D72D47A2BA1E71F00EDBC4D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D6617CE2BA169A900D9133E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7D72D47C2BA1E71F00EDBC4D /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D6617CE2BA169A900D9133E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
