@@ -7,5 +7,6 @@
         <page name='Operators'/>
         <page name='Function'/>
         <page name='Optionals'/>
+        <page name='OOPs'/>
     </pages>
 </playground>
