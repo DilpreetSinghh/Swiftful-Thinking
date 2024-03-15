@@ -60,9 +60,47 @@ import Foundation
     Objects in the Heap are "Reference" Types
      When we edit a Reference type, we edit the object that we are referencing.
      This "reference" is called "pointer" because it "points" to an object in the Heap(memory)
- 
- 
- 
- 
- 
+  
  */
+
+
+struct MyFirstObject{  //Value Types
+    let title: String = "Hello World!"
+}
+
+class MySecondObject{  // Reference Types
+    let title: String = "Hello World!"
+}
+
+/*
+Class vs Struct
+    Imagine a school and in the school there are classrooms.
+    Within each class, there are quizzes.
+    During the day, the teacher will hand out many different quizzes to different classes.
+
+
+    "school" = App
+    "classroom" = Class
+    "quiz" = Struct
+
+    In this example, we have a classroom and there are many actions that occur inside the classroom.
+    In code, we create a class and can perform actions within the class.
+
+    In this example, there are many different types of quizzes.
+    The teacher hands out the quizzes and the students take the quizzes and return them to the teacher.
+    In code, we create many structs and pass them around out app with ease.
+
+Note:
+    This metaphor is NOT perfect :)
+    Technical a "quiz" can be a class, etc.
+
+    We want to use a class for things like:
+    "Manager" "DataService" "Service" "Factory" "ViewModel"
+    Objects that we create and want to perform actions inside.
+
+    We want to use a struct for things like:
+    Data models
+    Objects that we create and pass around our app.
+
+ */
+
