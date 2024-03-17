@@ -9,5 +9,6 @@
         <page name='Optionals'/>
         <page name='OOPs'/>
         <page name='Structs'/>
+        <page name='Enum'/>
     </pages>
 </playground>
