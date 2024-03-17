@@ -11,5 +11,6 @@
         <page name='Structs'/>
         <page name='Enum'/>
         <page name='Classes'/>
+        <page name='Tuples'/>
     </pages>
 </playground>
