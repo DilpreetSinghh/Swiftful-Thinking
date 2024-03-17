@@ -54,8 +54,8 @@ func checkUserStatus () -> Bool {
 
 func showFirstScreen(){
     var userDidCompleteOnboarding: Bool = false
-    var userProfiletsCreated: Bool = true
-    let status = checkUserStatus(didCompleteOnboarding: userDidCompleteOnboarding, profileIsCreated: userProfiletsCreated)
+    var userProfileIsCreated: Bool = true
+    let status = checkUserStatus(didCompleteOnboarding: userDidCompleteOnboarding, profileIsCreated: userProfileIsCreated)
     
     if status == true {
         print("Show Home Screen")
@@ -77,7 +77,9 @@ showFirstScreen()
 
 //-----------------------------------
 
-/* `-> String` force us to write else statement as now it means doSomething() has to return a string, no matter the case */
+
+
+/* `-> String` force us to write else statement as now it means Batman() has to return a string, no matter the case */
 func Batman() -> String {
     var title: String = "Batmn"
     
@@ -88,7 +90,7 @@ func Batman() -> String {
         print("Not Batman")
         return "Not Batman"
     }
-    print("this is the inside of the function")
+    print("this is the inside of the function") // Will never be executed
 }
 Batman()
 
@@ -98,7 +100,7 @@ func Superman() -> Bool {
     var title: String = "Loki"
     
     /*   Q.   What the `guard` doing ?
-         A.   Make sure the title is Batman, otherwise return (or exit this whole function).
+         A.   Make sure the title is "Superman", otherwise it will print "Not Superman" as well as return false and exit this whole function.
     */
     guard title == "Superman" else{
         print("Not Superman")
