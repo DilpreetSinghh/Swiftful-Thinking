@@ -12,6 +12,7 @@ print(myOtherBool)
 
 myOtherBool = false
 print(myOtherBool)
+// Warning Explaination in Resources
 
 
 
@@ -23,8 +24,9 @@ print(myOtherBool)
 let newValue: Bool? = myOtherBool
 
 /*  
+    let newValue: Bool = myOtherBool
     We can't assign optional value to non optional value
-    let newValue2: Bool = myOtherBool
+    Explaination in Resources: Warning.md
  */
 
 let newValue2: Bool = myOtherBool ?? false
@@ -33,7 +35,7 @@ print("New value 2: \(newValue2.description)")
 
 
 
-//-----------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------
 
 
 
@@ -62,7 +64,7 @@ var userIsPremium: Bool? = nil
 func checkIfUserIsPremium() -> Bool? {
     return userIsPremium
 }
-
+// for Difference between both functios, check Resources
 func checkIfUserIsPremium2() -> Bool {
     return userIsPremium ?? false
 }
