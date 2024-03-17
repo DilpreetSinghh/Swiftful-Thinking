@@ -10,5 +10,6 @@
         <page name='OOPs'/>
         <page name='Structs'/>
         <page name='Enum'/>
+        <page name='Classes'/>
     </pages>
 </playground>
