@@ -12,5 +12,6 @@
         <page name='Enum'/>
         <page name='Classes'/>
         <page name='Tuples'/>
+        <page name='Generic'/>
     </pages>
 </playground>
