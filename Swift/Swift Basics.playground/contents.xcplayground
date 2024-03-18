@@ -14,5 +14,6 @@
         <page name='Tuples'/>
         <page name='Generic'/>
         <page name='AccessControl'/>
+        <page name='Arrays&amp;Sets'/>
     </pages>
 </playground>
