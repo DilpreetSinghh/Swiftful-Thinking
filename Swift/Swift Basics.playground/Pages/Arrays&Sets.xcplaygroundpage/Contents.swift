@@ -79,12 +79,21 @@ var myProducts: [ProductModel] = [
 
 
 // Array of fruits
+
 var finalFruits: [String] = ["Apple", "Orange", "Banana", "Apple"]
+//Non optional unlike Dictionaries
+
 print (finalFruits)
 
+
 // Sets of fruits
+
 var fruitsSet: Set<String> = ["Apple", "Orange", "Banana", "Apple"]
-print(fruitsSet) // No repetition of "Apple"
 // Sets aren't ordered
 // Sets are in alphabetically ordered
+// Non optional unlike Dictionaries
+
+print(fruitsSet)
+// No repetition of "Apple"
+
 
