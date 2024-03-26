@@ -38,6 +38,8 @@
 		7DD39FBA2B9B8EDA005D9D7C /* Lec_ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD39FB92B9B8EDA005D9D7C /* Lec_ColorPicker.swift */; };
 		7DD39FBC2B9BA6AF005D9D7C /* Lec_DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD39FBB2B9BA6AF005D9D7C /* Lec_DatePicker.swift */; };
 		7DD39FBE2B9BB95F005D9D7C /* Lec_Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD39FBD2B9BB95F005D9D7C /* Lec_Stepper.swift */; };
+		7DD7D6FD2BB121D700222DF2 /* Lec_Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD7D6FC2BB121D700222DF2 /* Lec_Documentation.swift */; };
+		7DDFB9272BB346A000FBE88C /* Lec_OnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDFB9262BB346A000FBE88C /* Lec_OnAppear.swift */; };
 		7DF18BFC2B87769B00A2ED3F /* Lec_TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF18BFB2B87769B00A2ED3F /* Lec_TextEditor.swift */; };
 		7DF912FF2B516788007F2740 /* Mastering_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */; };
 		7DF913012B516788007F2740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF913002B516788007F2740 /* ContentView.swift */; };
@@ -78,6 +80,8 @@
 		7DD39FB92B9B8EDA005D9D7C /* Lec_ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_ColorPicker.swift; sourceTree = "<group>"; };
 		7DD39FBB2B9BA6AF005D9D7C /* Lec_DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_DatePicker.swift; sourceTree = "<group>"; };
 		7DD39FBD2B9BB95F005D9D7C /* Lec_Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Stepper.swift; sourceTree = "<group>"; };
+		7DD7D6FC2BB121D700222DF2 /* Lec_Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Documentation.swift; sourceTree = "<group>"; };
+		7DDFB9262BB346A000FBE88C /* Lec_OnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_OnAppear.swift; sourceTree = "<group>"; };
 		7DF18BFB2B87769B00A2ED3F /* Lec_TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_TextEditor.swift; sourceTree = "<group>"; };
 		7DF912FB2B516788007F2740 /* Mastering SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mastering SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF912FE2B516788007F2740 /* Mastering_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mastering_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				7D102F712B9E2E5B00D14152 /* Lec_Slider.swift */,
 				7D102F742B9F208800D14152 /* Lec_TabView.swift */,
 				7D8099D42BADE5E000DC25D4 /* Lec_DarkMode.swift */,
+				7DD7D6FC2BB121D700222DF2 /* Lec_Documentation.swift */,
+				7DDFB9262BB346A000FBE88C /* Lec_OnAppear.swift */,
 			);
 			path = Lectures;
 			sourceTree = "<group>";
@@ -252,6 +258,7 @@
 				7D849ED12B5F7CE000D116D1 /* Lec_Animation.swift in Sources */,
 				7D7869882B691B6D00DBCB0C /* Lec_Alerts.swift in Sources */,
 				7D849ED52B5FA0D500D116D1 /* Lec_Sheets.swift in Sources */,
+				7DDFB9272BB346A000FBE88C /* Lec_OnAppear.swift in Sources */,
 				7D4A392C2B59AA31006281A6 /* Lec_Text.swift in Sources */,
 				7DB235732B85446300779111 /* Lec_ContextMenu.swift in Sources */,
 				7DD39FBA2B9B8EDA005D9D7C /* Lec_ColorPicker.swift in Sources */,
@@ -267,6 +274,7 @@
 				7DF913012B516788007F2740 /* ContentView.swift in Sources */,
 				7D849ED32B5F9AA000D116D1 /* Lec_Animation_Timing.swift in Sources */,
 				7D269FB32B55C09200F3DAA7 /* Lec_SubView.swift in Sources */,
+				7DD7D6FD2BB121D700222DF2 /* Lec_Documentation.swift in Sources */,
 				7DF913032B516788007F2740 /* Item.swift in Sources */,
 				7D849ED72B5FC3DD00D116D1 /* Lec_Popover.swift in Sources */,
 				7D12AB232B5FE8050049CF77 /* Lec_List.swift in Sources */,
