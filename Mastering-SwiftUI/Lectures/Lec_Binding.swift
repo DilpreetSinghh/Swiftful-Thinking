@@ -16,16 +16,12 @@ struct Lec_Binding: View {
         ZStack{
             backgroundColor
                 .ignoresSafeArea(.all)
-            
             VStack {
                 Text(title)
                     .font(.largeTitle)
                 
                 ButtonView(backgroundColor: $backgroundColor, title: $title)
             }
-            
-            
-
         }
     }
 }
@@ -38,13 +34,11 @@ struct ButtonView: View {
     @Binding var backgroundColor: Color
     @Binding var title: String
     
-    
     var body: some View {
-        
-                
         VStack {
             HStack{
                 Spacer()
+                
                 Button(action: {
                     backgroundColor = Color.orange
                     title = "Orange Button got Hit!"
@@ -58,6 +52,7 @@ struct ButtonView: View {
                     
                 })
                 Spacer()
+                
                 Button(action: {
                     backgroundColor = Color.purple
                     title = "Purple Button got Hit!"
@@ -68,7 +63,6 @@ struct ButtonView: View {
                         .padding(.horizontal)
                         .background(Color.blue)
                         .cornerRadius(15)
-                    
                 })
                 Spacer()
             }
