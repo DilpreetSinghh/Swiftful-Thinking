@@ -35,6 +35,17 @@ struct Lec_ConfirmationDialog: View {
             
             Rectangle()
                 .aspectRatio(1.0, contentMode: .fit)
+                .foregroundStyle(Color.gray)
+                .overlay {
+                    Image(systemName: "moon.fill")
+                        .resizable()
+                        .padding(100)
+                        .foregroundColor(.black)
+                    Text("The Moon")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundStyle(.snow)
+                }
         }
         .confirmationDialog("What would you like to do?", isPresented: $showConfirmationDialog) {
             dialogButtons()
