@@ -25,6 +25,7 @@
 		7D5A765A2B52AC670094ED57 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A76592B52AC670094ED57 /* Documentation.docc */; };
 		7D7869882B691B6D00DBCB0C /* Lec_Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7869872B691B6D00DBCB0C /* Lec_Alerts.swift */; };
 		7D78698A2B6A561300DBCB0C /* Lec_ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7869892B6A561300DBCB0C /* Lec_ConfirmationDialog.swift */; };
+		7D7BB9E42BC85932002A122C /* Lec_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7BB9E32BC85932002A122C /* Lec_Model.swift */; };
 		7D8099D52BADE5E000DC25D4 /* Lec_DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8099D42BADE5E000DC25D4 /* Lec_DarkMode.swift */; };
 		7D849ED12B5F7CE000D116D1 /* Lec_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D849ED02B5F7CE000D116D1 /* Lec_Animation.swift */; };
 		7D849ED32B5F9AA000D116D1 /* Lec_Animation_Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D849ED22B5F9AA000D116D1 /* Lec_Animation_Timing.swift */; };
@@ -69,6 +70,7 @@
 		7D5A76592B52AC670094ED57 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		7D7869872B691B6D00DBCB0C /* Lec_Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Alerts.swift; sourceTree = "<group>"; };
 		7D7869892B6A561300DBCB0C /* Lec_ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_ConfirmationDialog.swift; sourceTree = "<group>"; };
+		7D7BB9E32BC85932002A122C /* Lec_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Model.swift; sourceTree = "<group>"; };
 		7D8099D42BADE5E000DC25D4 /* Lec_DarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_DarkMode.swift; sourceTree = "<group>"; };
 		7D849ED02B5F7CE000D116D1 /* Lec_Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Animation.swift; sourceTree = "<group>"; };
 		7D849ED22B5F9AA000D116D1 /* Lec_Animation_Timing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec_Animation_Timing.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				7DDFB9262BB346A000FBE88C /* Lec_OnAppear.swift */,
 				7D9038132BB7C66400D0BEF4 /* Lec_ifLetGuard.swift */,
 				7D99ADE82BC5162400CB37B2 /* Lec_onTapGesture.swift */,
+				7D7BB9E32BC85932002A122C /* Lec_Model.swift */,
 			);
 			path = Lectures;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				7D1AC2C32B52926E001B7C2E /* LecForEach.swift in Sources */,
 				7D35CEA22B8AF91D00C79F4C /* Lec_Picker_Two.swift in Sources */,
 				7D849ED12B5F7CE000D116D1 /* Lec_Animation.swift in Sources */,
+				7D7BB9E42BC85932002A122C /* Lec_Model.swift in Sources */,
 				7D7869882B691B6D00DBCB0C /* Lec_Alerts.swift in Sources */,
 				7D849ED52B5FA0D500D116D1 /* Lec_Sheets.swift in Sources */,
 				7DDFB9272BB346A000FBE88C /* Lec_OnAppear.swift in Sources */,
